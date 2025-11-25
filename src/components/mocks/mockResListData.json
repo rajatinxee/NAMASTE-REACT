@@ -1,0 +1,1399 @@
+{
+    "statusCode": 0,
+    "data": {
+        "statusMessage": "done successfully",
+        "pageOffset": {
+            "nextOffset": "CIVDEOskKIDgq7aO36n9RTDJEzgB",
+            "widgetOffset": {
+                "restaurantCountWidget": "",
+                "collectionV5RestaurantListWidget_SimRestoRelevance_food": "11",
+                "inlineFacetFilter": "",
+                "collectionV5MastheadWidget": ""
+            }
+        },
+        "cards": [
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.CollectionMasthead",
+                        "collectionId": "80382",
+                        "title": "Chole Bhature",
+                        "description": "Satisfy your cravings with these fluffy & flavoursome breads paired with Chole.",
+                        "imageId": "COLLECTIONS/IMAGES/MERCH/2024/7/1/79169d55-0b86-4dde-9774-ee7ee1749974_pic",
+                        "aspectRatio": "3.44",
+                        "cta": {
+                            "link": "swiggy://collectionV2?collection_id=80382&tags=layout_CCS_CholeBhature,chhole_bhature,ads_pc_chole_bhature",
+                            "type": "collectionv2"
+                        },
+                        "type": "COLLECTION_MASTHEAD_TYPE_IMAGE_WITH_TEXT",
+                        "count": "77 restaurants",
+                        "navBarConfig": {}
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.InlineViewFilterSortWidget",
+                        "sortConfigs": [
+                            {
+                                "key": "relevance",
+                                "title": "Relevance (Default)",
+                                "selected": true,
+                                "defaultSelection": true
+                            },
+                            {
+                                "key": "deliveryTimeAsc",
+                                "title": "Delivery Time"
+                            },
+                            {
+                                "key": "modelBasedRatingDesc",
+                                "title": "Rating"
+                            },
+                            {
+                                "key": "costForTwoAsc",
+                                "title": "Cost: Low to High"
+                            },
+                            {
+                                "key": "costForTwoDesc",
+                                "title": "Cost: High to Low"
+                            }
+                        ],
+                        "restaurantCount": 77,
+                        "facetList": [
+                            {
+                                "label": "10 Mins Delivery",
+                                "id": "isRestaurantBolt",
+                                "selection": "SELECT_TYPE_SINGLESELECT",
+                                "facetInfo": [
+                                    {
+                                        "label": "10 Mins Delivery",
+                                        "id": "isRestaurantBoltfacetquery0",
+                                        "analytics": {},
+                                        "openFilter": true
+                                    }
+                                ],
+                                "viewType": "VIEW_TYPE_FLATTENED",
+                                "subLabel": "Filterby",
+                                "icon": "COLLECTIONS/IMAGES/MERCH/2024/12/18/4b2e8903-0e25-401b-8ede-088491b4cfa0_937977a3-b03b-4a9e-8b6a-24937664d1a9_pic.png"
+                            },
+                            {
+                                "label": "Veg/Non-Veg",
+                                "id": "isVeg",
+                                "selection": "SELECT_TYPE_MULTISELECT",
+                                "facetInfo": [
+                                    {
+                                        "label": "Non Veg",
+                                        "id": "isVegfacetquery0",
+                                        "analytics": {},
+                                        "openFilter": true
+                                    },
+                                    {
+                                        "label": "Pure Veg",
+                                        "id": "isVegfacetquery1",
+                                        "analytics": {},
+                                        "openFilter": true
+                                    }
+                                ],
+                                "viewType": "VIEW_TYPE_HALF_CARD",
+                                "subLabel": "Filterby",
+                                "openFilter": true
+                            },
+                            {
+                                "label": "Ratings",
+                                "id": "rating",
+                                "selection": "SELECT_TYPE_MULTISELECT",
+                                "facetInfo": [
+                                    {
+                                        "label": "Ratings",
+                                        "id": "ratingfacetquery0",
+                                        "analytics": {},
+                                        "openFilter": true
+                                    },
+                                    {
+                                        "label": "Ratings 4.0+",
+                                        "id": "ratingfacetquery1",
+                                        "analytics": {},
+                                        "openFilter": true
+                                    },
+                                    {
+                                        "label": "Ratings 4.5+",
+                                        "id": "ratingfacetquery2",
+                                        "analytics": {},
+                                        "openFilter": true
+                                    }
+                                ],
+                                "viewType": "VIEW_TYPE_HALF_CARD",
+                                "subLabel": "Filterby",
+                                "openFilter": true
+                            },
+                            {
+                                "label": "Delivery Time",
+                                "id": "deliveryTime",
+                                "selection": "SELECT_TYPE_MULTISELECT",
+                                "facetInfo": [
+                                    {
+                                        "label": "Less than 30 mins",
+                                        "id": "deliveryTimefacetquery0",
+                                        "analytics": {},
+                                        "openFilter": true
+                                    },
+                                    {
+                                        "label": "Less than 45 mins",
+                                        "id": "deliveryTimefacetquery1",
+                                        "analytics": {},
+                                        "openFilter": true
+                                    }
+                                ],
+                                "viewType": "VIEW_TYPE_HALF_CARD",
+                                "subLabel": "Filterby",
+                                "openFilter": true
+                            },
+                            {
+                                "label": "Cost For Two",
+                                "id": "costForTwo",
+                                "selection": "SELECT_TYPE_MULTISELECT",
+                                "facetInfo": [
+                                    {
+                                        "label": "Less than Rs. 300",
+                                        "id": "costForTwofacetquery0",
+                                        "analytics": {},
+                                        "openFilter": true
+                                    },
+                                    {
+                                        "label": "Rs.300 - Rs.600",
+                                        "id": "costForTwofacetquery1",
+                                        "analytics": {},
+                                        "openFilter": true
+                                    },
+                                    {
+                                        "label": "Greater than Rs. 600",
+                                        "id": "costForTwofacetquery2",
+                                        "analytics": {},
+                                        "openFilter": true
+                                    }
+                                ],
+                                "viewType": "VIEW_TYPE_HALF_CARD",
+                                "subLabel": "Filterby",
+                                "openFilter": true
+                            }
+                        ],
+                        "widgetId": "inlineFacetFilter"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+                        "layout": {
+                            "rows": 1,
+                            "widgetPadding": {
+                                "left": 16,
+                                "right": 16
+                            },
+                            "widgetTheme": {
+                                "defaultMode": {
+                                    "backgroundColour": "#FFFFFF",
+                                    "theme": "THEME_TYPE_LIGHT"
+                                },
+                                "darkMode": {
+                                    "backgroundColour": "#1B3028",
+                                    "theme": "THEME_TYPE_DARK"
+                                }
+                            }
+                        },
+                        "id": "restaurantCountWidget",
+                        "gridElements": {
+                            "infoWithStyle": {
+                                "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+                                "text": "Restaurants to explore",
+                                "headerStyling": {
+                                    "textSize": 15,
+                                    "textColor": "text_color_highest_emphasis",
+                                    "textFontName": "FONT_NAME_HEADER_H5",
+                                    "maxLines": 1
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "233409",
+                            "name": "Aggarwal Bikaneri Sweets sector-27",
+                            "cloudinaryImageId": "j8r7w0zkxzy1yjhoewjt",
+                            "locality": "Sector 27",
+                            "areaName": "Sector 27",
+                            "costForTwo": "₹200 for two",
+                            "cuisines": [
+                                "Sweets",
+                                "pure veg",
+                                "Chinese",
+                                "South Indian",
+                                "North Indian",
+                                "Street Food",
+                                "Snacks",
+                                "Bakery"
+                            ],
+                            "avgRating": 4.4,
+                            "veg": true,
+                            "parentId": "27669",
+                            "avgRatingString": "4.4",
+                            "totalRatingsString": "22K+",
+                            "promoted": true,
+                            "adTrackingId": "cid=b77520f6-f8a5-4853-9cf3-ff79cecdfc32~p=0~adgrpid=b77520f6-f8a5-4853-9cf3-ff79cecdfc32#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=233409~plpr=COLLECTION~eid=94465fb2-4aae-4d32-bcaa-88128fe0846b~srvts=1764049663983~collid=80382",
+                            "sla": {
+                                "deliveryTime": 12,
+                                "lastMileTravel": 1.4,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "10-15 mins",
+                                "lastMileTravelString": "1.4 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2025-11-25 23:30:00",
+                                "opened": true
+                            },
+                            "badges": {
+                                "imageBadges": [
+                                    {
+                                        "imageId": "android/static-assets/icons/big_rx.png",
+                                        "description": "bolt!"
+                                    },
+                                    {
+                                        "imageId": "Rxawards/_CATEGORY-Mithai.png",
+                                        "description": "Delivery!"
+                                    }
+                                ]
+                            },
+                            "isOpen": true,
+                            "aggregatedDiscountInfoV2": {
+                                "header": "₹100 OFF",
+                                "shortDescriptionList": [
+                                    {
+                                        "meta": "Use FLAT100",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "Flat ₹100 off on orders above ₹299 | Use code FLAT100",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ]
+                            },
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "imageBased": {
+                                        "badgeObject": [
+                                            {
+                                                "attributes": {
+                                                    "description": "bolt!",
+                                                    "imageId": "android/static-assets/icons/big_rx.png"
+                                                }
+                                            },
+                                            {
+                                                "attributes": {
+                                                    "imageId": "Rxawards/_CATEGORY-Mithai.png",
+                                                    "description": "Delivery!"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "textExtendedBadges": {},
+                                    "textBased": {}
+                                }
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {},
+                                "commsStyling": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {},
+                            "externalRatings": {
+                                "aggregatedRating": {
+                                    "rating": "3.8",
+                                    "ratingCount": "1.0K+"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                            "campaignId": "b77520f6-f8a5-4853-9cf3-ff79cecdfc32"
+                        },
+                        "analytics": {},
+                        "cta": {
+                            "link": "swiggy://menu?restaurant_id=233409&source=collection&query=Chole%20Bhature",
+                            "text": "RESTAURANT_MENU",
+                            "type": "DEEPLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+                        "sectionId": "MENU_RETURN_FOOD"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "291139",
+                            "name": "JSB Evergreen Snacks & Sweets",
+                            "cloudinaryImageId": "gla3lho2btvce1zcr7pi",
+                            "locality": "Brahmaputra Shopping Complex",
+                            "areaName": "Sector 29",
+                            "costForTwo": "₹150 for two",
+                            "cuisines": [
+                                "Sweets"
+                            ],
+                            "avgRating": 4.5,
+                            "veg": true,
+                            "parentId": "111702",
+                            "avgRatingString": "4.5",
+                            "totalRatingsString": "14K+",
+                            "sla": {
+                                "deliveryTime": 15,
+                                "lastMileTravel": 1,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "10-15 mins",
+                                "lastMileTravelString": "1.0 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2025-11-25 22:30:00",
+                                "opened": true
+                            },
+                            "badges": {
+                                "imageBadges": [
+                                    {
+                                        "imageId": "android/static-assets/icons/big_rx.png",
+                                        "description": "bolt!"
+                                    }
+                                ]
+                            },
+                            "isOpen": true,
+                            "aggregatedDiscountInfoV2": {},
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "textExtendedBadges": {},
+                                    "textBased": {},
+                                    "imageBased": {
+                                        "badgeObject": [
+                                            {
+                                                "attributes": {
+                                                    "imageId": "android/static-assets/icons/big_rx.png",
+                                                    "description": "bolt!"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {},
+                                "commsStyling": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {},
+                            "externalRatings": {
+                                "aggregatedRating": {
+                                    "rating": "--"
+                                }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                        },
+                        "analytics": {},
+                        "cta": {
+                            "link": "swiggy://menu?restaurant_id=291139&source=collection&query=Chole%20Bhature",
+                            "text": "RESTAURANT_MENU",
+                            "type": "DEEPLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+                        "sectionId": "MENU_RETURN_FOOD"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "56486",
+                            "name": "Ganeshwaram",
+                            "cloudinaryImageId": "neeeg013tk02pk3ucaa8",
+                            "locality": "Sector 45",
+                            "areaName": "Sector 45",
+                            "costForTwo": "₹150 for two",
+                            "cuisines": [
+                                "South Indian",
+                                "North Indian",
+                                "Continental",
+                                "Sweets",
+                                "Desserts"
+                            ],
+                            "avgRating": 4.2,
+                            "parentId": "13743",
+                            "avgRatingString": "4.2",
+                            "totalRatingsString": "22K+",
+                            "promoted": true,
+                            "adTrackingId": "cid=de0d5b2d-5ad0-4798-9b6e-bc9c7897b884~p=1~adgrpid=de0d5b2d-5ad0-4798-9b6e-bc9c7897b884#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=56486~plpr=COLLECTION~eid=b9630cbe-d7ca-4867-9589-82298a7e99ed~srvts=1764049663983~collid=80382",
+                            "sla": {
+                                "deliveryTime": 35,
+                                "lastMileTravel": 5,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "30-35 mins",
+                                "lastMileTravelString": "5.0 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2025-11-25 22:30:00",
+                                "opened": true
+                            },
+                            "badges": {
+                                "imageBadges": [
+                                    {
+                                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                        "description": "pureveg"
+                                    }
+                                ]
+                            },
+                            "isOpen": true,
+                            "aggregatedDiscountInfoV2": {
+                                "header": "50% OFF",
+                                "shortDescriptionList": [
+                                    {
+                                        "discountType": "FinalPrice",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "Get every item @ 29",
+                                        "discountType": "FinalPrice",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "99 store",
+                                        "discountType": "FinalPrice",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ]
+                            },
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "textBased": {},
+                                    "imageBased": {
+                                        "badgeObject": [
+                                            {
+                                                "attributes": {
+                                                    "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                                    "description": "pureveg"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "textExtendedBadges": {}
+                                }
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {},
+                                "commsStyling": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {},
+                            "externalRatings": {
+                                "aggregatedRating": {
+                                    "rating": "4.2",
+                                    "ratingCount": "5.1K+"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                            "campaignId": "de0d5b2d-5ad0-4798-9b6e-bc9c7897b884"
+                        },
+                        "analytics": {},
+                        "cta": {
+                            "link": "swiggy://menu?restaurant_id=56486&source=collection&query=Chole%20Bhature",
+                            "text": "RESTAURANT_MENU",
+                            "type": "DEEPLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+                        "sectionId": "MENU_RETURN_FOOD"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "85520",
+                            "name": "Sagar Chole Bhature",
+                            "cloudinaryImageId": "07392e486f23a476d91c2c6c29794f1f",
+                            "locality": "Sector 18",
+                            "areaName": "Sector 18",
+                            "costForTwo": "₹200 for two",
+                            "cuisines": [
+                                "North Indian",
+                                "Snacks",
+                                "Beverages"
+                            ],
+                            "avgRating": 4.4,
+                            "veg": true,
+                            "parentId": "174440",
+                            "avgRatingString": "4.4",
+                            "totalRatingsString": "6.0K+",
+                            "sla": {
+                                "deliveryTime": 11,
+                                "lastMileTravel": 1.6,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "10-15 mins",
+                                "lastMileTravelString": "1.6 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2025-11-25 22:00:00",
+                                "opened": true
+                            },
+                            "badges": {
+                                "imageBadges": [
+                                    {
+                                        "imageId": "android/static-assets/icons/big_rx.png",
+                                        "description": "bolt!"
+                                    }
+                                ]
+                            },
+                            "isOpen": true,
+                            "aggregatedDiscountInfoV2": {},
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "imageBased": {
+                                        "badgeObject": [
+                                            {
+                                                "attributes": {
+                                                    "description": "bolt!",
+                                                    "imageId": "android/static-assets/icons/big_rx.png"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "textExtendedBadges": {},
+                                    "textBased": {}
+                                }
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {},
+                                "commsStyling": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {},
+                            "externalRatings": {
+                                "aggregatedRating": {
+                                    "rating": "4.0",
+                                    "ratingCount": "149"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                        },
+                        "analytics": {},
+                        "cta": {
+                            "link": "swiggy://menu?restaurant_id=85520&source=collection&query=Chole%20Bhature",
+                            "text": "RESTAURANT_MENU",
+                            "type": "DEEPLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+                        "sectionId": "MENU_RETURN_FOOD"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "32076",
+                            "name": "4U Foods",
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/13/86320247-0e15-4863-99e0-f632b6814615_32076.jpg",
+                            "locality": "Sector 72",
+                            "areaName": "Sector 76",
+                            "costForTwo": "₹180 for two",
+                            "cuisines": [
+                                "North Indian",
+                                "Chinese",
+                                "Tandoor",
+                                "Snacks",
+                                "Indian"
+                            ],
+                            "avgRating": 4,
+                            "parentId": "14124",
+                            "avgRatingString": "4.0",
+                            "totalRatingsString": "31K+",
+                            "promoted": true,
+                            "adTrackingId": "cid=c0881a55-05f9-4086-9e18-57936d0855c8~p=4~adgrpid=c0881a55-05f9-4086-9e18-57936d0855c8#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=32076~plpr=COLLECTION~eid=1cade8f9-04a2-4c0f-b462-0a2617ca9c15~srvts=1764049663983~collid=80382",
+                            "sla": {
+                                "deliveryTime": 39,
+                                "lastMileTravel": 7.6,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "35-40 mins",
+                                "lastMileTravelString": "7.6 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2025-12-02 00:00:00",
+                                "opened": true
+                            },
+                            "badges": {},
+                            "isOpen": true,
+                            "aggregatedDiscountInfoV2": {
+                                "header": "₹200 OFF",
+                                "shortDescriptionList": [
+                                    {
+                                        "discountType": "FinalPrice",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "Get every item @ 19",
+                                        "discountType": "FinalPrice",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "Get every item @ 69",
+                                        "discountType": "FinalPrice",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ]
+                            },
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "imageBased": {},
+                                    "textExtendedBadges": {},
+                                    "textBased": {}
+                                }
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {},
+                                "commsStyling": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {},
+                            "externalRatings": {
+                                "aggregatedRating": {
+                                    "rating": "3.9",
+                                    "ratingCount": "159"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                            "campaignId": "c0881a55-05f9-4086-9e18-57936d0855c8"
+                        },
+                        "analytics": {},
+                        "cta": {
+                            "link": "swiggy://menu?restaurant_id=32076&source=collection&query=Chole%20Bhature",
+                            "text": "RESTAURANT_MENU",
+                            "type": "DEEPLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+                        "sectionId": "MENU_RETURN_FOOD"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "219566",
+                            "name": "Bikanervala",
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/20/d244b2a6-8882-4f36-ad14-5532072bf06a_219566.jpg",
+                            "locality": "Sector 18",
+                            "areaName": "Sector 18",
+                            "costForTwo": "₹300 for two",
+                            "cuisines": [
+                                "Sweets",
+                                "North Indian",
+                                "South Indian",
+                                "Continental",
+                                "Beverages"
+                            ],
+                            "avgRating": 4.3,
+                            "veg": true,
+                            "parentId": "45936",
+                            "avgRatingString": "4.3",
+                            "totalRatingsString": "17K+",
+                            "sla": {
+                                "deliveryTime": 23,
+                                "lastMileTravel": 1.4,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "20-25 mins",
+                                "lastMileTravelString": "1.4 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2025-11-25 22:45:00",
+                                "opened": true
+                            },
+                            "badges": {
+                                "imageBadges": [
+                                    {
+                                        "imageId": "android/static-assets/icons/big_rx.png",
+                                        "description": "bolt!"
+                                    },
+                                    {
+                                        "imageId": "Green%20Dot%20Awards/Best%20In%20Chole%20Bhature.png",
+                                        "description": "Delivery!"
+                                    }
+                                ]
+                            },
+                            "isOpen": true,
+                            "aggregatedDiscountInfoV2": {
+                                "shortDescriptionList": [
+                                    {
+                                        "discountType": "FinalPrice",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "Get every item @ 9",
+                                        "discountType": "FinalPrice",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "99 store",
+                                        "discountType": "FinalPrice",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ]
+                            },
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "imageBased": {
+                                        "badgeObject": [
+                                            {
+                                                "attributes": {
+                                                    "imageId": "android/static-assets/icons/big_rx.png",
+                                                    "description": "bolt!"
+                                                }
+                                            },
+                                            {
+                                                "attributes": {
+                                                    "imageId": "Green%20Dot%20Awards/Best%20In%20Chole%20Bhature.png",
+                                                    "description": "Delivery!"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "textExtendedBadges": {},
+                                    "textBased": {}
+                                }
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {},
+                                "commsStyling": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {},
+                            "externalRatings": {
+                                "aggregatedRating": {
+                                    "rating": "4.0",
+                                    "ratingCount": "9.0K+"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                        },
+                        "analytics": {},
+                        "cta": {
+                            "link": "swiggy://menu?restaurant_id=219566&source=collection&query=Chole%20Bhature",
+                            "text": "RESTAURANT_MENU",
+                            "type": "DEEPLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+                        "sectionId": "MENU_RETURN_FOOD"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "411846",
+                            "name": "Mithaas",
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/10/8/2f9dad92-82b6-4b51-9ede-0925702d9c40_411846.jpg",
+                            "locality": "Kanchanjunga Market",
+                            "areaName": "Sector 53",
+                            "costForTwo": "₹300 for two",
+                            "cuisines": [
+                                "Sweets",
+                                "Bakery",
+                                "Snacks"
+                            ],
+                            "avgRating": 4.3,
+                            "veg": true,
+                            "parentId": "4150",
+                            "avgRatingString": "4.3",
+                            "totalRatingsString": "9.6K+",
+                            "promoted": true,
+                            "adTrackingId": "cid=10e83a38-fc8e-469b-aa99-43cdcdb6d141~p=5~adgrpid=10e83a38-fc8e-469b-aa99-43cdcdb6d141#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=411846~plpr=COLLECTION~eid=240f61ea-d0da-41f0-a291-b697daac679f~srvts=1764049663983~collid=80382",
+                            "sla": {
+                                "deliveryTime": 31,
+                                "lastMileTravel": 4.5,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "30-35 mins",
+                                "lastMileTravelString": "4.5 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2025-11-25 22:45:00",
+                                "opened": true
+                            },
+                            "badges": {
+                                "imageBadges": [
+                                    {
+                                        "imageId": "Rxawards/_CATEGORY-Mithai.png",
+                                        "description": "Delivery!"
+                                    }
+                                ]
+                            },
+                            "isOpen": true,
+                            "aggregatedDiscountInfoV2": {
+                                "header": "₹100 OFF",
+                                "shortDescriptionList": [
+                                    {
+                                        "meta": "Use FLAT100",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "Flat ₹100 off | Use FLAT100",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ]
+                            },
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "imageBased": {
+                                        "badgeObject": [
+                                            {
+                                                "attributes": {
+                                                    "description": "Delivery!",
+                                                    "imageId": "Rxawards/_CATEGORY-Mithai.png"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "textExtendedBadges": {},
+                                    "textBased": {}
+                                }
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {},
+                                "commsStyling": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {},
+                            "externalRatings": {
+                                "aggregatedRating": {
+                                    "rating": "--"
+                                }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                            "campaignId": "10e83a38-fc8e-469b-aa99-43cdcdb6d141"
+                        },
+                        "analytics": {},
+                        "cta": {
+                            "link": "swiggy://menu?restaurant_id=411846&source=collection&query=Chole%20Bhature",
+                            "text": "RESTAURANT_MENU",
+                            "type": "DEEPLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+                        "sectionId": "MENU_RETURN_FOOD"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "499769",
+                            "name": "Samosa Party",
+                            "cloudinaryImageId": "kepjq173utxcofjms39k",
+                            "locality": "Sector 4",
+                            "areaName": "Sector 4",
+                            "costForTwo": "₹150 for two",
+                            "cuisines": [
+                                "Fast Food",
+                                "Snacks",
+                                "Beverages",
+                                "Chaat",
+                                "North Indian",
+                                "Street Food",
+                                "Sweets",
+                                "Desserts",
+                                "Punjabi",
+                                "Bakery"
+                            ],
+                            "avgRating": 4.3,
+                            "parentId": "6364",
+                            "avgRatingString": "4.3",
+                            "totalRatingsString": "3.0K+",
+                            "sla": {
+                                "deliveryTime": 21,
+                                "lastMileTravel": 2.2,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "20-25 mins",
+                                "lastMileTravelString": "2.2 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2025-11-26 05:29:00",
+                                "opened": true
+                            },
+                            "badges": {},
+                            "isOpen": true,
+                            "aggregatedDiscountInfoV2": {
+                                "header": "50% OFF",
+                                "shortDescriptionList": [
+                                    {
+                                        "discountType": "FinalPrice",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "Get every item @ 79",
+                                        "discountType": "FinalPrice",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "99 store",
+                                        "discountType": "FinalPrice",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ]
+                            },
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "imageBased": {},
+                                    "textExtendedBadges": {},
+                                    "textBased": {}
+                                }
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {},
+                                "commsStyling": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {},
+                            "externalRatings": {
+                                "aggregatedRating": {
+                                    "rating": "3.7",
+                                    "ratingCount": "47"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                        },
+                        "analytics": {},
+                        "cta": {
+                            "link": "swiggy://menu?restaurant_id=499769&source=collection&query=Chole%20Bhature",
+                            "text": "RESTAURANT_MENU",
+                            "type": "DEEPLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+                        "sectionId": "MENU_RETURN_FOOD"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "715516",
+                            "name": "Mithaas Cakes & Bakes",
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/10/8/02a01b94-c6da-4e7c-bed9-ff338ed6744d_715516.jpg",
+                            "locality": "Kanchanjunga Market",
+                            "areaName": "Sector 50",
+                            "costForTwo": "₹500 for two",
+                            "cuisines": [
+                                "Bakery",
+                                "Desserts"
+                            ],
+                            "avgRating": 4.2,
+                            "veg": true,
+                            "parentId": "426888",
+                            "avgRatingString": "4.2",
+                            "totalRatingsString": "1.3K+",
+                            "promoted": true,
+                            "adTrackingId": "cid=f6855c34-53c0-4853-ae62-6db66202e0ab~p=6~adgrpid=f6855c34-53c0-4853-ae62-6db66202e0ab#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=715516~plpr=COLLECTION~eid=2dcfcd11-d12d-4ba4-b583-e15932cb9eb3~srvts=1764049663983~collid=80382",
+                            "sla": {
+                                "deliveryTime": 29,
+                                "lastMileTravel": 4.5,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "25-30 mins",
+                                "lastMileTravelString": "4.5 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2025-11-25 22:45:00",
+                                "opened": true
+                            },
+                            "badges": {},
+                            "isOpen": true,
+                            "aggregatedDiscountInfoV2": {
+                                "header": "₹125 OFF",
+                                "shortDescriptionList": [
+                                    {
+                                        "meta": "Use FLAVORFUL",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "Flat ₹125 off | Use FLAVORFUL",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ]
+                            },
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "textBased": {},
+                                    "imageBased": {},
+                                    "textExtendedBadges": {}
+                                }
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {},
+                                "commsStyling": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {},
+                            "externalRatings": {
+                                "aggregatedRating": {
+                                    "rating": "--"
+                                }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                            "campaignId": "f6855c34-53c0-4853-ae62-6db66202e0ab"
+                        },
+                        "analytics": {},
+                        "cta": {
+                            "link": "swiggy://menu?restaurant_id=715516&source=collection&query=Chole%20Bhature",
+                            "text": "RESTAURANT_MENU",
+                            "type": "DEEPLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+                        "sectionId": "MENU_RETURN_FOOD"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "45914",
+                            "name": "Aggarwal Bikaneri Sweets",
+                            "cloudinaryImageId": "lycyb796gxr1kmp9e0ox",
+                            "locality": "Sector 18",
+                            "areaName": "Sector 18",
+                            "costForTwo": "₹200 for two",
+                            "cuisines": [
+                                "Sweets",
+                                "pure veg",
+                                "Chinese",
+                                "South Indian",
+                                "North Indian",
+                                "Street Food",
+                                "Snacks",
+                                "Bakery"
+                            ],
+                            "avgRating": 4.4,
+                            "veg": true,
+                            "parentId": "1810",
+                            "avgRatingString": "4.4",
+                            "totalRatingsString": "46K+",
+                            "sla": {
+                                "deliveryTime": 15,
+                                "lastMileTravel": 1.4,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "15-20 mins",
+                                "lastMileTravelString": "1.4 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2025-11-25 23:30:00",
+                                "opened": true
+                            },
+                            "badges": {
+                                "imageBadges": [
+                                    {
+                                        "imageId": "android/static-assets/icons/big_rx.png",
+                                        "description": "bolt!"
+                                    },
+                                    {
+                                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                        "description": "pureveg"
+                                    }
+                                ]
+                            },
+                            "isOpen": true,
+                            "aggregatedDiscountInfoV2": {
+                                "header": "₹125 OFF",
+                                "shortDescriptionList": [
+                                    {
+                                        "discountType": "FinalPrice",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "99 store",
+                                        "discountType": "FinalPrice",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "99 store",
+                                        "discountType": "FinalPrice",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ]
+                            },
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "imageBased": {
+                                        "badgeObject": [
+                                            {
+                                                "attributes": {
+                                                    "imageId": "android/static-assets/icons/big_rx.png",
+                                                    "description": "bolt!"
+                                                }
+                                            },
+                                            {
+                                                "attributes": {
+                                                    "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                                    "description": "pureveg"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "textExtendedBadges": {},
+                                    "textBased": {}
+                                }
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {},
+                                "commsStyling": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {},
+                            "externalRatings": {
+                                "aggregatedRating": {
+                                    "rating": "--"
+                                }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                        },
+                        "analytics": {},
+                        "cta": {
+                            "link": "swiggy://menu?restaurant_id=45914&source=collection&query=Chole%20Bhature",
+                            "text": "RESTAURANT_MENU",
+                            "type": "DEEPLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+                        "sectionId": "MENU_RETURN_FOOD"
+                    }
+                }
+            }
+        ],
+        "firstOffsetRequest": true,
+        "nextFetch": 3
+    },
+    "tid": "201a1c21-e22f-433f-908a-27e047d26748",
+    "sid": "o6z5f523-1fb7-4bd9-bc3c-8d203770469a",
+    "deviceId": "a292df13-1104-4142-9b96-7c4b7b1a48d4",
+    "csrfToken": "KnQgFsyXrpId-geTckUMfvhcyZy_Cln7a69-O3tM"
+}

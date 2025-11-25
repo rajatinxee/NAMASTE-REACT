@@ -1,6 +1,6 @@
 const RestCard = ({ resname, cuisines, rating, deliveryTime, area, image }) => {
   return (
-    <div className="res-card m-4 w-[200px] h-[400px] bg-gray-100 hover:bg-gray-300 transition-all duration-300 border border-solid border-black rounded-md ">
+    <div data-testid="resCard" className="res-card m-4 w-[200px] h-[400px] bg-gray-100 hover:bg-gray-300 transition-all duration-300 border border-solid border-black rounded-md ">
       {/* <img className='res-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg/1200px-Good_Food_Display_-_NCI_Visuals_Online.jpg'/> */}
       <img
         className="res-logo w-[200px] h-[200px] p-1"
